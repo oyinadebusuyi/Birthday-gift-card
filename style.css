@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#fefae0, #ccd5ae, #606c38);
+    color: #bc6c25;
+    
+}
+
+.bff-ing {
+    width: 300px;
+    border-radius: 300px;
+    border: 5px solid #283618;
+    margin-bottom: 10px
+} 
+
+h1, h2, h3, h4, p {
+    text-shadow: 1px 0px 1px #283618;
+}
+
+
+.header, .baby-reo, .big-reo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#head-two {
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+
+}
+#baby-head, #big-head {
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 50px 0 10px 0;
+
+}
+#bday-date {
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0
+}
+
+.gift-title {
+    margin-bottom: 10;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+.gift-img {
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 6px;
+    height: 200px;
+    background-image: url(images/redbox.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+#gift-img-hbd:hover {
+    background-image: url(images/office.gif)
+}
+#gift-img-hbd {
+    height: 300px;
+}
+#gift-img-cash:hover {
+    background-image: url(images/cash-gift.gif);
+}
+#gift-img-wonder:hover {
+    background-image: url(images/wonder.gif);
+}
+#gift-img-skeleton:hover {
+    background-image: url(images/skeleton-cash.gif);
+}
+#gift-img-skeleton {
+    width: 200px;
+}
+#gift-img-love:hover {
+    background-image: url(images/love-you.gif);
+}
+#gift-img-love {
+    height: 112px;
+    width: 200px
+}
+.footer {
+    width: 400px;
+    margin: 40px auto 20px auto;
+}
+#congrats {
+    width: 450px;
+    margin-bottom: 40px;
+}
+a {
+    color: #283618;
+}
+#create {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+#copy {
+    margin-bottom: 0;
+}
+#all {
+    margin-top: 0;
+}
